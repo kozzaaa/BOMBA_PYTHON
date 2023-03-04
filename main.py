@@ -10,9 +10,11 @@ sendMessage = input("Podaj tekst który ma się wyświetlać: ")
 # Pentla to taki pojemnik w którym przechowujemy informacje i
 # możemy go jakoś nazwać np: name.
 
-for name in [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]:
+# Range czyli: Podaje sekwencję liczb na podstawie podanego indeksu początku i końca
+
+for name in range(1,11):
     sleep(1)
-    print(name, "sekunda")
+    print("Za", name)
 print(sendMessage)
 
 # sleep: jest to wcześniej
